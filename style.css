@@ -1,0 +1,437 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    margin: 30px 0px 0px 0px;
+}
+#Huddle{
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: xx-larger;
+    position: relative;
+    top: -45px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 30px 70px 30px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: relative;
+    top: -10px;
+}
+#messages{
+    position: relative;
+    bottom: -38px;
+    height: 32px;
+    width: 200px;
+}
+#free{
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 100px;
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    padding: 6px;
+    text-align: center;
+    margin: 21px ;
+}
+
+.Intro{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.para{
+    position: relative;
+    top: -20px;
+    display: flex;
+    width: 500px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+#head{
+    font-size:2.5rem;
+    word-spacing: 0.3rem;
+}
+.free{
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.screen{
+    margin: 120px 0px 120px 0px;
+}
+.achivement{
+    position: relative;
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+h2{
+    font-size: 64px;
+}
+.community{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.com{
+    position: relative;
+    bottom: -53px;
+    width: 40px;
+}
+.info{
+    text-align: center;
+    position: relative;
+    top: -70px;
+    color: grey;
+} 
+.features{
+    margin-top: 400px;
+}
+#grow{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+.two{
+    width: 500px;
+    height: 400px;
+
+}
+.g{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+}
+.together{
+    position: relative;
+    bottom: -20px;
+    font-size: 35px;
+}
+.f{
+    position: relative;
+    bottom: -100px;
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+}
+#Flow{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.con2{
+    margin-top: 250px;
+}
+.ready{
+    font-size: 40px;
+}
+.free2{
+    position: relative;
+    right: -170px;
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.curve{
+    width: 100%;
+    margin-top: 290px;
+}
+.footer-section{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(207, 100%, 98%);
+}
+#messages2{
+    position: relative;
+    bottom: -38px;
+    height: 42px;
+    width: 50px;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: relative;
+    bottom: -95px;
+}
+.footer-top-curve{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+    right: -100px;
+    margin-left: 30px;
+    width: 375px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: -120px;
+}
+.con4{
+    position: relative;
+    bottom: -20px;
+}
+.call,.mail{
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+    gap: 15px;
+}
+.footer-bottom-curve{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 445px;
+    right: -65rem;
+    top: -21rem;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search{
+    display: flex;
+    gap: 30px;
+    
+}
+.sub{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    height: 10px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 6px;
+}
+#s{
+    position: relative;
+    top: -23px;
+}
+.bar{
+    width:400px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* Existing styles here */
+
+/* Media Queries for responsiveness */
+@media(max-width: 500px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10px 40px 10px;
+    }
+    #messages{
+        top:10px
+    }
+    .logo {
+        top: 0;
+    }
+    
+    #free {
+        width: 80px;
+        margin: 10px 0;
+        padding: 4px;
+        height: auto;
+    }
+    
+    .Intro {
+        padding: 0 10px;
+    }
+
+    .para {
+        width: 88%;
+        top: 0;
+    }
+    
+    #head {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .free {
+        width: 80%;
+        padding: 10px;
+        border-radius: 30px;
+        margin: 10px 0;
+    }
+    
+    .screen {
+        width: 100%;
+        margin: 60px 0;
+    }
+    
+    .achivement {
+        flex-direction: column;
+        gap: 20px;
+        top: 0;
+    }
+
+    .community {
+        gap: 10px;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+    h3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .info {
+        top: -10;
+    }
+
+    .features {
+        margin-top: 200px;
+    }
+    
+    #grow {
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin: 0 10px;
+    }
+    #Flow {
+        flex-direction: column;
+        gap: 50px;
+        margin: 20 10px;
+    }
+
+    .two {
+        width: 100%;
+        height: auto;
+    }
+
+    .g, .f {
+        width: 100%;
+        bottom: 0;
+    }
+
+    .together {
+        font-size: 1.5rem;
+        bottom: 0;
+    }
+
+    .con2 {
+        margin: 100px 0;
+    }
+
+    .ready {
+        font-size: 1.8rem;
+    }
+
+    .free2 {
+        width: 80%;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .curve {
+        margin-top: 150px;
+        width: 600px;
+    }
+
+    .footer-section {
+        padding: 20px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-top-curve {
+        margin: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .logo2 {
+        bottom: 0;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+        bottom: -49px;
+    }
+
+    #messages2 {
+        width: 50px;
+        height: auto;
+        bottom: -5px;
+    }
+
+    #Huddle {
+        font-size: 3rem;
+        top: 0;
+    }
+
+    .contact {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .call, .mail {
+        margin-left: 0;
+        gap: 10px;
+        justify-content: center;
+    }
+    .new{
+        width: 400px;
+    }
+    .footer-bottom-curve {
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+
+    .search {
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+    }
+
+    .bar {
+        width: 80%;
+    }
+
+    .sub {
+        padding: 20px;
+    }
+
+    #s {
+        top: -10;
+        right: -7px;
+        font-weight: 600;
+    }
+}
+
