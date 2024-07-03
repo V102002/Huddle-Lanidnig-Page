@@ -27,7 +27,7 @@ The Challenge is to make a Huddle landing page which consists of curves
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://v102002.github.io/Huddle-Lanidnig-Page/
 
 ## My process
 
